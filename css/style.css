@@ -97,3 +97,9 @@ a {
 .footer a:hover {
     text-decoration: none;
 }
+
+@media(max-width:600px) {
+    .jumbotron h2 {
+        font-size: 40px;
+    }
+}
