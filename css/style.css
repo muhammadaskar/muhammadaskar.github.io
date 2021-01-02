@@ -29,29 +29,35 @@ a {
 .project .kbmpti:hover .image {
     background-color: #38006b;
     opacity: 0.3;
+    cursor: pointer;
 }
 
 
 .project .kbmpti:hover .middle {
     opacity: 1;
+    cursor: pointer;
 }
 
 .project .skapat:hover .image {
     background-color: #38006b;
     opacity: 0.3;
+    cursor: pointer;
 }
 
 .project .skapat:hover .middle {
     opacity: 1;
+    cursor: pointer;
 }
 
 .project .abouinam:hover .image {
     background-color: #38006b;
     opacity: 0.3;
+    cursor: pointer;
 }
 
 .project .abouinam:hover .middle {
     opacity: 1;
+    cursor: pointer;
 }
 
 .contact .github a {
