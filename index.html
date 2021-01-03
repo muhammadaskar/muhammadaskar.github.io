@@ -20,7 +20,7 @@
 
     <!-- NAVBAR -->
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="#about"> <img src="img/askar.png" width="50" alt="" class="rounded-circle"> </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -35,6 +35,11 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <div class="switch">
+                        <span class="inner-switch">OFF</span>
+                    </div>
                 </li>
               </ul>
             </div>
@@ -145,7 +150,7 @@
     <!-- END CONTACT -->
 
     <!-- FOOTER -->
-    <footer class="footer" style="background-color: #2C2C2C;">
+    <footer class="footer">
         <div class="copy-right_text">
             <div class="container">
                 <div class="footer_border"></div>
@@ -194,6 +199,21 @@
     })();
     </script>
     <!--End of Tawk.to Script-->
+
+    <script>
+        $( ".inner-switch" ).on("click", function() {
+        if( $( "body" ).hasClass( "dark" )) {
+            $( "body" ).removeClass( "dark" );
+            $( ".inner-switch" ).text( "OFF" );
+            $( ".nav-link" ).removeClass( "dark-mode" );
+        } else {
+            $( "body" ).addClass( "dark" );
+            $( ".inner-switch" ).text( "ON" );
+            $( ".nav-link" ).addClass( "dark-mode" );
+
+            }
+        });
+    </script>
 
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

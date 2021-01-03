@@ -2,6 +2,15 @@
     --mainColor: #ff9800;
 }
 
+
+.navbar a {
+    color: #000;
+}
+
+a.dark-mode {
+    color: white;
+}
+
 a {
     text-decoration: none;
 }
@@ -94,6 +103,7 @@ a {
     width: 100%;
     color: white;
     text-align: center;
+    background-color: #2C2C2C;
 }
 
 .footer a {
@@ -108,4 +118,38 @@ a {
     .jumbotron h2 {
         font-size: 30px;
     }
+}
+
+/* body {
+    font-family: sans-serif;
+    font-size: 1.125rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 0 0.9375rem;
+} */
+
+.switch {
+    align-self: flex-end;
+    margin: 5px;
+}
+
+.inner-switch {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 1.25rem;
+    width: 3.125rem;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.1875rem;
+    margin-left: 0.3125rem;
+}
+
+.dark,
+.dark * {
+    background-color: #222;
+    color: #e6e6e6;
+    border-color: #e6e6e6;
 }
