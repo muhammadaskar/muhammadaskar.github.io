@@ -37,7 +37,7 @@
                 </li>
                 <li class="nav-item">
                     <div class="switch">
-                        <span class="inner-switch">OFF</span>
+                        <span class="inner-switch"><img src="img/moon.svg" width="30" alt=""></span>
                     </div>
                 </li>
               </ul>
@@ -203,13 +203,14 @@
         $( ".inner-switch" ).on("click", function() {
         if( $( "body" ).hasClass( "dark" )) {
             $( "body" ).removeClass( "dark" );
-            $( ".inner-switch" ).text( "OFF" );
+            
+            $( ".inner-switch" ).html('<img src="img/moon.svg" width="30" alt="">')
             $( ".nav-link" ).removeClass( "dark-mode" );
             $( ".navbar" ).removeClass( "navbar-dark" );
             $( ".navbar" ).addClass( "navbar-light" );
         } else {
             $( "body" ).addClass( "dark" );
-            $( ".inner-switch" ).text( "ON" );
+            $( ".inner-switch" ).html('<img src="img/sun.svg" width="30" alt="">')
             $( ".nav-link" ).addClass( "dark-mode" );
             $( ".navbar" ).removeClass( "navbar-light" );
             $( ".navbar" ).addClass( "navbar-dark" );
