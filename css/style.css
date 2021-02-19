@@ -69,6 +69,17 @@ a {
     cursor: pointer;
 }
 
+.project .hmjkimia:hover .image {
+    background-color: #38006b;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.project .hmjkimia:hover .middle {
+    opacity: 1;
+    cursor: pointer;
+}
+
 .contact .github a {
     color: #000;
 }
