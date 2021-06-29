@@ -162,3 +162,47 @@ a {
     color: #e6e6e6;
     border-color: #e6e6e6;
 }
+
+/* FLOATING BUTTON WA */
+
+
+
+/* @media(max-width: 700px) {
+    .card {
+        margin: auto;
+        width: 20rem;
+    }
+} */
+
+.float {
+    animation: shake 1.0s infinite alternate ease-in-out;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 20px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateY(-10px);
+    }
+}
+
+.float:hover {
+    color: #000;
+}
+
+.my-float {
+    margin-top: 16px;
+    background-color: #25d366;
+}
+
+/* END FLOATING BUTTON WA */
