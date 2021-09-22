@@ -22,6 +22,10 @@ a {
     backface-visibility: hidden;
 }
 
+.about .jumbotron .status {
+    font-size: 35px;
+}
+
 .middle {
     transition: .5s ease;
     opacity: 0;
@@ -132,6 +136,16 @@ a {
 
     .jumbotron h2 {
         font-size: 30px;
+    }
+
+    .jumbotron .status {
+        font-size: 28px;
+    }
+
+
+    .project h1,
+    .contact h1 {
+        font-size: 35px;
     }
 }
 
