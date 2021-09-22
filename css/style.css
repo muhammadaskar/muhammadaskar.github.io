@@ -126,6 +126,10 @@ a {
 }
 
 @media(max-width:600px) {
+    .about {
+        margin-top: 100%;
+    }
+
     .jumbotron h2 {
         font-size: 30px;
     }
