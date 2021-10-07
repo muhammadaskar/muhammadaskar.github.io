@@ -6,6 +6,7 @@ new Vue({
             { name: "SMK Negeri 4 Makassar", class: "skapat", img: "img/projects/smk4mks.jpg", link: "https://smkn4makassar.sch.id/"},
             { name: "Alauddin Biomedical Olympiad", class: "abouinam", img: "img/projects/abouinam.jpg", link: "https://abouinam.com/"},
             { name: "HMJ KIMIA UINAM", class: "hmjkimia", img: "img/projects/hmj-kimia.jpg", link: "https://hmjkimiauinalauddinmakassar.com/"},
+            { name: "Bangsring Underwater", class: "hmjkimia", img: "img/projects/bangsring.jpg", link: "https://bangsringunderwater.com/"},
         ]
     }
 })

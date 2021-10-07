@@ -75,7 +75,7 @@
             <h1 class="display-4 text-center" data-aos="fade-up" data-aos-delay="200">My Projects</h1>
             <hr class="bg-gray" style="width: 20%; height: 5px; border-radius: 25px;" data-aos="fade-down" data-aos-delay="100">
             <div class="row" id="app">
-                <div v-for="project in projects" class="col-md-4 justify-content-center align-content-center" v-bind:class="`${project.class}`" data-aos="fade-right" data-aos-delay="300">
+                <div v-for="project in projects" class="col-lg-4  col-md-6 justify-content-center align-content-center" v-bind:class="`${project.class}`" data-aos="fade-right" data-aos-delay="300">
                     <img  v-bind:src="`${project.img}`" alt="" width="300" class="image rounded mb-2 mx-auto d-block">
                     <div class="middle">
                         <p class="text-bold">{{project.name}}</p>
