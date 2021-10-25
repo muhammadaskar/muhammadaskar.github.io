@@ -134,12 +134,17 @@ a {
         margin-top: 100%;
     }
 
+    .about .jumbotron img {
+        margin-top: 55px;
+    }
+
     .jumbotron h2 {
         font-size: 30px;
     }
 
     .jumbotron .status {
         font-size: 28px;
+        margin-top: 60px;
     }
 
 
